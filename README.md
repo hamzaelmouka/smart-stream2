@@ -1,0 +1,20 @@
+# Smart Stream
+
+Plateforme web IPTV : liste de chaînes, recherche, filtre par catégorie et prévisualisation.
+
+## Technologies
+HTML, JavaScript (modules ES, Fetch API, async/await), Tailwind CSS, MockAPI.
+
+## API
+https://6af34ebcd2377d6c3704e210.mockapi.io/channels/channel
+
+## Lancer le projet
+1. `npm install`
+2. `npx tailwindcss -i ./input.css -o ./output.css --watch`
+3. Ouvrir `index.html` avec Live Server.
+
+## Structure
+- `services/api.js` : requêtes Fetch (gestion 200 / 404 / 500)
+- `ui/afichage.js` : affichage
+- `js/main.js` : événements
+- `data/data.json` : données initiales
