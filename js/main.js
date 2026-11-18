@@ -1,6 +1,6 @@
 import { getData, changee,deletee } from "../services/api.js";
 import { affichage } from "../ui/afichage.js";
-import { affichagePrevi ,selection ,selectionn,selectio } from "../ui/afichage.js";
+import { affichagePrevi  ,selectionn,selectio } from "../ui/afichage.js";
 import { selecte } from "../ui/afichage.js";
 import { loading } from "../ui/afichage.js";
 import { errour } from "../ui/afichage.js";
@@ -8,7 +8,9 @@ import { errour } from "../ui/afichage.js";
 const list= document.getElementById("channel");
 const search=document.getElementById("search");
 const select=document.getElementById("select");
- 
+const blac=document.getElementById("blac");
+const favori=document.getElementById("favori")
+
 let channels=[];
 let ruslt=[];
 function liste(data){
@@ -21,8 +23,8 @@ async function demarage() {
         channels=await getData();
         affichage(liste(channels));
         selecte(channels);
-        selection();
     }catch(error){
+        console.error(error);
         errour(false,error.message)
     }finally{
         loading(true)
@@ -37,7 +39,7 @@ select.addEventListener("change", () => {
        result=channels.filter((p)=>p.category===select.value);
     }
     search.value="";
-    affichage(result);
+    affichage(liste(result));
 });
 
 search.addEventListener("input",()=>{
@@ -60,12 +62,16 @@ if (btn){
     const channel=channels.find(({id})=>id===cart.dataset.id);
      const action = btn.dataset.action;
     if (action==='favorite') {
-        changee(channel.id,{isFavorite:true});
+        changee(channel.id,{isFavorite:!channel.isFavorite});
+        channel.isFavorite=!channel.isFavorite;
     }else if(action==='blacklisted'){
-        changee(channel.id,{isFavorite:true});
+        changee(channel.id,{isBlacklisted:!channel.isBlacklisted});
+        channel.isBlacklisted=!channel.isBlacklisted;
     }else{
-        deletee(channel.id);
-        channels=channels.filter((p)=>p.id!==channel.id);
+        if(confirm("Supprimer cette chaine ?")){
+            deletee(channel.id);
+            channels=channels.filter((p)=>p.id!==channel.id);
+        }
     }
     affichage(liste(channels));
 }else  if(cart){
@@ -78,3 +84,11 @@ affichagePrevi(element)
 })
 
 
+blac.addEventListener("click",()=>{
+    ruslt=channels.filter((p)=> p.isBlacklisted===true);
+    affichage(ruslt);
+})
+favori.addEventListener("click",()=>{
+    ruslt=channels.filter((p)=> p.isFavorite===true);
+    affichage(liste(ruslt));
+})
