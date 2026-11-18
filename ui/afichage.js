@@ -19,8 +19,8 @@ export function affichage(channels){
                 <button data-action="favorite" class="text-amber-400 p-2 rounded-full   hover:bg-slate-600 ">
                     ${element.isFavorite ? "★" : "☆"}
                 </button>
-                <button data-action="blacklisted" class="p-2 rounded-full text-red-500  hover:bg-slate-600 ">
-                    🚫
+                <button data-action="blacklisted" class=" ${element.isBlacklisted ? ' font-bold ' : ''} p-2 rounded-full text-red-500  hover:bg-slate-600 ">
+                    ${element.isBlacklisted ? "↻" : "🚫"}
                 </button>
                 <button  class="p-2 rounded-full text-red-500  hover:bg-slate-600 ">
                     🗑️
@@ -29,12 +29,6 @@ export function affichage(channels){
         </div>
         `
     });
-}
-
-export function selection(){
-    const catt=document.querySelector('[data-id="1"]')
-    catt.classList.add("bg-red-400");
-    catt.classList.remove("bg-amber-50");
 }
 
 export function selectionn(cate){
