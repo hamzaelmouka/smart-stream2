@@ -1,4 +1,4 @@
-import { getData } from "../services/api.js";
+import { getData, changee,deletee } from "../services/api.js";
 import { affichage } from "../ui/afichage.js";
 import { affichagePrevi ,selection ,selectionn,selectio } from "../ui/afichage.js";
 import { selecte } from "../ui/afichage.js";
@@ -9,9 +9,6 @@ const list= document.getElementById("channel");
 const search=document.getElementById("search");
 const select=document.getElementById("select");
  
-     
-
-
 let channels=[];
 let ruslt=[];
 function liste(data){
@@ -32,10 +29,6 @@ async function demarage() {
     }
 }
 demarage();
-
-
-
-
 
 
 select.addEventListener("change", () => {
@@ -64,14 +57,17 @@ list.addEventListener("click",(e)=>{
 const cart=e.target.closest("[data-id]");
 const btn = e.target.closest('button');
 if (btn){
-  const action = btn.dataset.action;
-  if (action==='favorite') {
-console.log(2)
-}else if(action==='blacklisted'){
-    console.log(1)
-}else{
-    console.log(0);
-}
+    const channel=channels.find(({id})=>id===cart.dataset.id);
+     const action = btn.dataset.action;
+    if (action==='favorite') {
+        changee(channel.id,{isFavorite:true});
+    }else if(action==='blacklisted'){
+        changee(channel.id,{isFavorite:true});
+    }else{
+        deletee(channel.id);
+        channels=channels.filter((p)=>p.id!==channel.id);
+    }
+    affichage(liste(channels));
 }else  if(cart){
 const carts=document.querySelectorAll("[data-id]");
 carts.forEach((c)=>selectio(c));
