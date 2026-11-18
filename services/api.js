@@ -13,7 +13,6 @@ try{
     throw new Error(error.message||"propleme reseau");
 }
 }
-
 export async function changee(id, changes){
     try{
         const response=await fetch(`${API_URL}/${id}`,{
