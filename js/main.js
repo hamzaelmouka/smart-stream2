@@ -13,13 +13,16 @@ const select=document.getElementById("select");
 
 
 let channels=[];
-
+let ruslt=[];
+function liste(data){
+    return ruslt=data.filter((p)=> p.isBlacklisted===false);
+}
 async function demarage() {
     loading(false);
     errour(true);
     try{
         channels=await getData();
-        affichage(channels);
+        affichage(liste(channels));
         selecte(channels);
         selection();
     }catch(error){
@@ -43,19 +46,6 @@ select.addEventListener("change", () => {
     search.value="";
     affichage(result);
 });
-// affichage(channels);
-list.addEventListener("click",(e)=>{
-const cart=e.target.closest("[data-id]")
-if(!cart) return ;
-
-const carts=document.querySelectorAll("[data-id]");
-carts.forEach((c)=>selectio(c));
-selectionn(cart);
-const element=channels.find(({id})=> id===cart.dataset.id)
-affichagePrevi(element)
-
-})
-
 
 search.addEventListener("input",()=>{
     const put=search.value.trim().toLowerCase();
@@ -69,4 +59,26 @@ search.addEventListener("input",()=>{
         cart.classList.toggle("hidden",!text.includes(put));
     })
 })
+
+list.addEventListener("click",(e)=>{
+const cart=e.target.closest("[data-id]");
+const btn = e.target.closest('button');
+if (btn){
+  const action = btn.dataset.action;
+  if (action==='favorite') {
+console.log(2)
+}else if(action==='blacklisted'){
+    console.log(1)
+}else{
+    console.log(0);
+}
+}else  if(cart){
+const carts=document.querySelectorAll("[data-id]");
+carts.forEach((c)=>selectio(c));
+selectionn(cart);
+const element=channels.find(({id})=> id===cart.dataset.id)
+affichagePrevi(element)
+}
+})
+
 
