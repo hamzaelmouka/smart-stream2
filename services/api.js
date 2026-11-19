@@ -41,6 +41,18 @@ export async function deletee(id){
     }
 }
 
+export async function poste(chaine){
+    try{
+        const response=await fetch(API_URL,{
+            methode:"POST",
+            headers:{"Content":"application/json"},
+            body:JSON.stringify(chaine),
+        })
+    }catch(error){
+        error(error.message||"propleme reseau");
+    }
+}
+
 // const API_URL = "https://6af34ebcd2377d6c3704e210.mockapi.io/channels/channel";
 //  const response=await fetch(API_URL);
 //  const channels=await response.json();
