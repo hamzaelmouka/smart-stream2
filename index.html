@@ -10,15 +10,45 @@
 </head>
 
 <body class="bg-stone-900 h-screen overflow-hidden">
-    <main class="grid grid-cols-3 h-full gap-3 p-3">
-        <section class="col-span-1 bg-slate-700 rounded-xl flex flex-col min-h-0">
-            <div class="flex justify-center text-2xl font-bold italic m-4 text-gray-500  ">Smart Stream</div>
-             <input id="search" class="m-2 h-10 px-2 bg-amber-50 w-[96%] rounded-md " type="text" placeholder="Recherch TV en direct">
+    <main class=" relative grid grid-cols-3 h-full gap-3 p-3">
+        <div id="modal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center">
+          <div class="w-96 bg-slate-700 p-6 rounded-xl text-amber-50">
+         <h2 class="mb-4 text-xl font-bold">Nouvelle chaîne</h2>
+
+         <label>Numéro <span class="text-red-400">*</span></label>
+         <input id="f-number" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="ex: 1057">
+
+          <label>Nom <span class="text-red-400">*</span></label>
+          <input id="f-name" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="ex: FR - TF1 HD">
+
+          <label>Catégorie</label>
+          <input id="f-category" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="ex: SPORT">
+
+          <label>Lien du logo</label>
+          <input id="f-logo" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="https://...">
+
+          <label>Lien de l'image</label>
+          <input id="f-image" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="https://...">
+
+          <p id="form-error" class="hidden mb-3 p-2 rounded-md bg-red-600 text-white"></p>
+
+          <div class="flex justify-end gap-2">
+            <button id="btn-cancel" class="px-3 py-1 rounded-md bg-slate-500">Annuler</button>
+            <button id="btn-save" class="px-3 py-1 rounded-md bg-amber-400 font-bold text-black">Ajouter</button>
+          </div>
+        </div>
+        </div>
+        <section class="col-span-1 bg-slate-600 rounded-xl flex flex-col min-h-0">
+            <div class=" flex justify-center text-white "> <span class="rounded-lg m-1 py-2 px-20 text-2xl font-semibold italic bg-slate-800">📺 Smart Stream</span> </div>
+            <span class="flex mx-2 items-center gap-2">
+             <input id="search" class=" h-10 px-2  w-[96%] rounded-lg text-white outline-amber-400 bg-slate-800 " type="text" placeholder="Recherch TV en direct">
+             <button class="text-white hover:border-amber-400 my-2 w-full   bg-slate-800 border h-10 border-none rounded-lg">+ Ajouter un chien</button>
+            </span>
              <p id="loading" class=" m-2 text-amber-50 animate-pulse ">chargement...</p>
              <p id="erour" class=" m-2 p-3 rounded-md bg-red-600 text-white"></p>
               <span  class="flex items-center "> 
                 <button id="blac" class="text-2xl  rounded-full hover:bg-slate-600">📓</button> 
-                <select name="" id="select" class=" my-2 w-full   bg-amber-50 border h-10 border-amber-950 rounded-md"></select>
+                <select name="" id="select" class="text-white border-amber-400 my-2 w-full  bg-slate-800  h-10  rounded-lg"></select>
                 <button id="favori"  class="text-4xl  p-2 pt-0 mx-2 text-amber-400  rounded-full hover:bg-slate-600">★</button> 
             </span>
              <div id="channel" class="flex-1 overflow-y-auto "></div>
