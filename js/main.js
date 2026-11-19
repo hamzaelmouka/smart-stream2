@@ -9,7 +9,7 @@ const list= document.getElementById("channel");
 const search=document.getElementById("search");
 const select=document.getElementById("select");
 const blac=document.getElementById("blac");
-const favori=document.getElementById("favori")
+const favori=document.getElementById("favori");
 
 let channels=[];
 let ruslt=[];
@@ -92,3 +92,21 @@ favori.addEventListener("click",()=>{
     ruslt=channels.filter((p)=> p.isFavorite===true);
     affichage(liste(ruslt));
 })
+
+const btnadd=document.getElementById("btn-add")
+btnadd.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+});
+
+const btnremov=document.getElementById("btn-cancel")
+btnremov.addEventListener("click", closeModal);
+
+function closeModal() {
+    modal.classList.add("hidden");
+    fNumber.value = "";
+    fName.value = "";
+    fCategory.value = "";
+    fLogo.value = "";
+    fImage.value = "";
+    formError.classList.add("hidden");
+}
