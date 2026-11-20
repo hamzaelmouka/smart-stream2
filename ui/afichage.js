@@ -23,7 +23,7 @@ export function affichage(channels){
                     ${element.isBlacklisted ? "↻" : "🚫"}
                 </button>
                 <button  class="p-2 rounded-full text-red-500  hover:bg-slate-600 ">
-                    🗑️
+                    ${element.isBlacklisted ? "🗑️" : "📝"}
                 </button>
             </div>
         </div>
@@ -42,7 +42,7 @@ export function selectio(cate){
 }
 export function affichagePrevi(channel){
     img.innerHTML=`
-    <img class="w-full h-130 object-cover rounded-2xl " src=${channel.previewImage}>
+    <img class="w-full h-130 object-cover rounded-2xl " src="${channel.previewImage}">
     <h1 class="mt-4 text-3xl font-bold text-amber-50">${channel.channelNumber}-${channel.name}</h1>
     `;
 }
@@ -50,7 +50,7 @@ export function affichagePrevi(channel){
 export function selecte(data){
     if(!select)return;
     select.innerHTML="";
-    select.innerHTML=`<option id="" class="w-10" value="">Tout les catalouge </option>`
+    select.innerHTML=`<option id="" class="w-10" value="" >les category </option>`
     data.forEach(function(element){
         let valid=true;
         Array.from(select.options).forEach(function(e){
@@ -71,3 +71,4 @@ export function errour(err ,mesage){
     error.textContent=mesage;
     error.classList.toggle("hidden",err)
 }
+
