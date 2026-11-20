@@ -1,4 +1,4 @@
-import { getData, changee,deletee } from "../services/api.js";
+import { getData, changee,deletee,poste } from "../services/api.js";
 import { affichage } from "../ui/afichage.js";
 import { affichagePrevi  ,selectionn,selectio } from "../ui/afichage.js";
 import { selecte } from "../ui/afichage.js";
@@ -10,7 +10,16 @@ const search=document.getElementById("search");
 const select=document.getElementById("select");
 const blac=document.getElementById("blac");
 const favori=document.getElementById("favori");
-
+const btnadd=document.getElementById("btn-add")
+const btnremov=document.getElementById("btn-cancel")
+const btnsave=document.getElementById("btn-save")
+const fNumber=document.getElementById("f-number")
+const fName=document.getElementById("f-name")
+const fCategory=document.getElementById("f-category")
+const fLogo=document.getElementById("f-logo")
+const fImage=document.getElementById("f-image")
+const formError=document.getElementById("form-error")
+const formSuccess=document.getElementById("form-success")
 let channels=[];
 let ruslt=[];
 function liste(data){
@@ -93,12 +102,12 @@ favori.addEventListener("click",()=>{
     affichage(liste(ruslt));
 })
 
-const btnadd=document.getElementById("btn-add")
+
+
 btnadd.addEventListener("click", () => {
     modal.classList.remove("hidden");
 });
 
-const btnremov=document.getElementById("btn-cancel")
 btnremov.addEventListener("click", closeModal);
 
 function closeModal() {
@@ -109,4 +118,35 @@ function closeModal() {
     fLogo.value = "";
     fImage.value = "";
     formError.classList.add("hidden");
+    formSuccess.classList.add("hidden");
 }
+btnsave.addEventListener("click",()=>{
+    const numbre=fNumber.value.trim();
+    const name=fName.value.trim();
+    if (numbre === "" || name === "") {
+        formError.textContent = "Le numéro et le nom sont obligatoires";
+        formError.classList.remove("hidden");
+        return;
+    }
+    const chain={
+        id:Date.now(),
+        channelNumbre:numbre,
+        name:name,
+        category:fCategory.value.trim()||"AUTRE",
+        logo:fLogo.value.trim()||`https://placehold.co/60x60?text=${name}`,
+        logo:fImage.value.trim()||`https://placehold.co/60x60?text=${name}`,
+        isFavorite:false,
+        isBlacklisted:false,
+    }
+    poste(chain);
+    channels.push(chain);
+    formError.classList.add("hidden");
+    formSuccess.classList.remove("hidden");
+    btnsave.disabled=true;
+    // setTimeout(closeModal, 1000);
+    setTimeout(()=>{
+        closeModal();
+        btnsave.disabled=false;
+        affichage(liste(channels));
+    },1000)
+})
