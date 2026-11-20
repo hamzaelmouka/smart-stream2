@@ -71,4 +71,3 @@ export function errour(err ,mesage){
     error.textContent=mesage;
     error.classList.toggle("hidden",err)
 }
-
