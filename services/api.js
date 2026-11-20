@@ -44,12 +44,16 @@ export async function deletee(id){
 export async function poste(chaine){
     try{
         const response=await fetch(API_URL,{
-            methode:"POST",
-            headers:{"Content":"application/json"},
+            method:"POST",
+            headers:{"Content-type":"application/json"},
             body:JSON.stringify(chaine),
         })
+        if(!response.ok){
+            throw new Error(`Erreur HTTP ${response.status}`);
+        }
+        return await response.json();
     }catch(error){
-        error(error.message||"propleme reseau");
+      throw new Error(error.message||"propleme reseau");
     }
 }
 
