@@ -31,7 +31,9 @@
           <input id="f-image" class="mb-3 w-full h-9 px-2 rounded-md bg-slate-800" type="text" placeholder="https://...">
 
           <p id="form-error" class="hidden mb-3 p-2 rounded-md bg-red-600 text-white"></p>
-
+          <p id="form-success" class="hidden mb-3 p-2 rounded-md bg-green-600 text-white font-bold">
+              Chaîne ajoutée avec succès ✓
+           </p>
           <div class="flex justify-end gap-2">
             <button id="btn-cancel" class="px-3 py-1 rounded-md bg-slate-500">Annuler</button>
             <button id="btn-save" class="px-3 py-1 rounded-md bg-amber-400 font-bold text-black">Ajouter</button>
@@ -42,7 +44,7 @@
             <div class=" flex justify-center text-white "> <span class="rounded-lg m-1 py-2 px-20 text-2xl font-semibold italic bg-slate-800">📺 Smart Stream</span> </div>
             <span class="flex mx-2 items-center gap-2">
              <input id="search" class=" h-10 px-2  w-[96%] rounded-lg text-white outline-amber-400 bg-slate-800 " type="text" placeholder="Recherch TV en direct">
-             <button class="text-white hover:border-amber-400 my-2 w-full   bg-slate-800 border h-10 border-none rounded-lg">+ Ajouter un chien</button>
+             <button id="btn-add" class="text-white hover:border-amber-400 my-2 w-full   bg-slate-800 border h-10 border-none rounded-lg">+ Ajouter une chaine</button>
             </span>
              <p id="loading" class=" m-2 text-amber-50 animate-pulse ">chargement...</p>
              <p id="erour" class=" m-2 p-3 rounded-md bg-red-600 text-white"></p>
