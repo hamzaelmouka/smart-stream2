@@ -1,3 +1,5 @@
+import { channels } from "../js/main.js";
+
 const API_URL = "https://6afc8b0e892984c4494bb4ed.mockapi.io/channels/channe";
 
 
@@ -51,11 +53,13 @@ export async function poste(chaine){
         if(!response.ok){
             throw new Error(`Erreur HTTP ${response.status}`);
         }
-        return await response.json();
+        const chaain= await response.json();
+        channels.push(chaain);
     }catch(error){
       throw new Error(error.message||"propleme reseau");
     }
 }
+
 
 // const API_URL = "https://6af34ebcd2377d6c3704e210.mockapi.io/channels/channel";
 //  const response=await fetch(API_URL);
