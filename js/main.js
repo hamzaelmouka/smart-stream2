@@ -20,7 +20,10 @@ const fLogo=document.getElementById("f-logo")
 const fImage=document.getElementById("f-image")
 const formError=document.getElementById("form-error")
 const formSuccess=document.getElementById("form-success")
-let channels=[];
+const btntout=document.getElementById("btn-tout")
+const modal = document.getElementById("modal")
+
+export let channels=[];
 let ruslt=[];
 function liste(data){
     return ruslt=data.filter((p)=> p.isBlacklisted===false);
@@ -28,29 +31,41 @@ function liste(data){
 async function demarage() {
     loading(false);
     errour(true);
-    try{
-        channels=await getData();
-        affichage(liste(channels));
+    try {
+        channels = await getData();
+        const visible = liste(channels);
+        affichage(visible);
         selecte(channels);
-    }catch(error){
+
+        if (visible.length > 0) {
+            affichagePrevi(visible[0]);
+            const firstChannel = list.querySelector(`[data-id="${visible[0].id}"]`);
+            if (firstChannel) selectionn(firstChannel);
+        }
+    } catch (error) {
         console.error(error);
-        errour(false,error.message)
-    }finally{
-        loading(true)
+        errour(false, error.message);
+    } finally {
+        loading(true);
     }
 }
 demarage();
 
+let currentView = () => liste(channels);
 
 select.addEventListener("change", () => {
-    let result=channels;
-    if(select.value!==""){
-       result=channels.filter((p)=>p.category===select.value);
+    if (select.value !== "") {
+        currentView = () => liste(channels.filter(p => p.category === select.value));
+    } else {
+        currentView = () => liste(channels);
     }
-    search.value="";
-    affichage(liste(result));
+    affichage(currentView());
+    search.value = "";
 });
-
+btntout.addEventListener("click",()=>{
+    currentView = () => liste(channels);
+    affichage(currentView());
+})
 search.addEventListener("input",()=>{
     const put=search.value.trim().toLowerCase();
     const carts=document.querySelectorAll("[data-id]");
@@ -77,14 +92,20 @@ if (btn){
         changee(channel.id,{isBlacklisted:!channel.isBlacklisted});
         channel.isBlacklisted=!channel.isBlacklisted;
     }else{
-        if(confirm("Supprimer cette chaine ?")){
-            deletee(channel.id);
-            channels=channels.filter((p)=>p.id!==channel.id);
+        if(channel.isBlacklisted){
+            if(confirm("Supprimer cette chaine ?")){
+                deletee(channel.id);
+                channels=channels.filter((p)=>p.id!==channel.id);
+            }
+        }else {
+            btnsave.textContent="Modifier";
+            modifier(channel)
         }
     }
-    affichage(liste(channels));
+    // demarage();
+    affichage(currentView());
 }else  if(cart){
-const carts=document.querySelectorAll("[data-id]");
+    const carts=document.querySelectorAll("[data-id]");
 carts.forEach((c)=>selectio(c));
 selectionn(cart);
 const element=channels.find(({id})=> id===cart.dataset.id)
@@ -94,17 +115,17 @@ affichagePrevi(element)
 
 
 blac.addEventListener("click",()=>{
-    ruslt=channels.filter((p)=> p.isBlacklisted===true);
-    affichage(ruslt);
+    currentView = () => channels.filter(p => p.isBlacklisted === true);
+    affichage(currentView());
 })
 favori.addEventListener("click",()=>{
-    ruslt=channels.filter((p)=> p.isFavorite===true);
-    affichage(liste(ruslt));
+    currentView = () => liste(channels.filter(p => p.isFavorite === true));
+    affichage(currentView());
 })
-
 
 
 btnadd.addEventListener("click", () => {
+    btnsave.textContent="Ajouter"
     modal.classList.remove("hidden");
 });
 
@@ -119,6 +140,17 @@ function closeModal() {
     fImage.value = "";
     formError.classList.add("hidden");
     formSuccess.classList.add("hidden");
+    valide=0;
+}
+let valide=0;
+function modifier(p){
+    modal.classList.remove("hidden");
+    fNumber.value = p.channelNumber ;
+    fName.value = p.name ;
+    fCategory.value = p.category ;
+    fLogo.value =p.logo;
+    fImage.value = p.previewImage ;
+    valide=p;
 }
 btnsave.addEventListener("click",()=>{
     const numbre=fNumber.value.trim();
@@ -128,18 +160,33 @@ btnsave.addEventListener("click",()=>{
         formError.classList.remove("hidden");
         return;
     }
+    if(valide){
+        valide.channelNumber=numbre,
+        valide.name=name,
+        valide.category=fCategory.value.trim()||"AUTRE",
+        valide.logo=fLogo.value.trim()||`https://placehold.co/60x60?text=${name}`,
+        valide.previewImage=fImage.value.trim()||`https://placehold.co/60x60?text=${name}`,
+        changee(valide.id,valide);
+        setTimeout(()=>{
+        closeModal();
+        btnsave.disabled=false;
+        affichage(currentView());
+    },1000);
+    return
+    }
+
     const chain={
-        id:Date.now(),
-        channelNumbre:numbre,
+        channelNumber:numbre,
         name:name,
         category:fCategory.value.trim()||"AUTRE",
         logo:fLogo.value.trim()||`https://placehold.co/60x60?text=${name}`,
-        logo:fImage.value.trim()||`https://placehold.co/60x60?text=${name}`,
+        previewImage:fImage.value.trim()||`https://placehold.co/60x60?text=${name}`,
         isFavorite:false,
-        isBlacklisted:false,
+        isBlacklisted:false
     }
     poste(chain);
-    channels.push(chain);
+    // channels.push(chain);
+    console.log(channels);
     formError.classList.add("hidden");
     formSuccess.classList.remove("hidden");
     btnsave.disabled=true;
@@ -147,6 +194,6 @@ btnsave.addEventListener("click",()=>{
     setTimeout(()=>{
         closeModal();
         btnsave.disabled=false;
-        affichage(liste(channels));
+        affichage(currentView());
     },1000)
 })
