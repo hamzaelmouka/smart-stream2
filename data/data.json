@@ -1,19 +1,21 @@
 [
   {
     "id": "1",
-    "channelNumber": "1057",
-    "name": "FR - DISCOVERY ID FHD",
+    "channelNumber": "1070",
+    "name": "FR - NATIONAL GEOGRAPHIC FHD",
     "category": "DOCUMENTAIRE",
-    "logo": "https://tse2.mm.bing.net/th/id/OIP.1oqCogkR1A04dP2beblmwwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "previewImage": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/278f5215219611.5628e52b2495e.jpg",
+    "logo": "https://wallpapercave.com/wp/wp8223251.jpg",
+    "previewImage": "https://www.popsci.com/wp-content/uploads/2022/12/01/NationalGeographic_BearsEars-scaled-e1670022591140.jpg",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Habitations en péril",
-      "startTime": "20:50",
-      "endTime": "21:45",
-      "progressPercentage": 65
-    }
+      "currentProgram": "Planète sauvage",
+      "startTime": "20:40",
+      "endTime": "21:40",
+      "progressPercentage": 55
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "2",
@@ -29,7 +31,9 @@
       "startTime": "20:30",
       "endTime": "21:20",
       "progressPercentage": 40
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "3",
@@ -45,23 +49,27 @@
       "startTime": "21:05",
       "endTime": "22:00",
       "progressPercentage": 20
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "4",
-    "channelNumber": "1070",
-    "name": "FR - NATIONAL GEOGRAPHIC FHD",
+    "channelNumber": "1057",
+    "name": "FR - DISCOVERY ID FHD",
     "category": "DOCUMENTAIRE",
-    "logo": "https://wallpapercave.com/wp/wp8223251.jpg",
-    "previewImage": "https://www.popsci.com/wp-content/uploads/2022/12/01/NationalGeographic_BearsEars-scaled-e1670022591140.jpg",
+    "logo": "https://tse2.mm.bing.net/th/id/OIP.1oqCogkR1A04dP2beblmwwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "previewImage": "https://wallpapercave.com/wp/wp2827789.jpg",
     "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
     "isLive": true,
     "epg": {
-      "currentProgram": "Planète sauvage",
-      "startTime": "20:40",
-      "endTime": "21:40",
-      "progressPercentage": 55
-    }
+      "currentProgram": "Habitations en péril",
+      "startTime": "20:50",
+      "endTime": "21:45",
+      "progressPercentage": 65
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "5",
@@ -77,7 +85,9 @@
       "startTime": "20:00",
       "endTime": "21:00",
       "progressPercentage": 90
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "6",
@@ -93,7 +103,9 @@
       "startTime": "21:00",
       "endTime": "22:30",
       "progressPercentage": 15
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "7",
@@ -109,7 +121,9 @@
       "startTime": "21:10",
       "endTime": "23:00",
       "progressPercentage": 10
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "8",
@@ -125,7 +139,9 @@
       "startTime": "20:45",
       "endTime": "22:45",
       "progressPercentage": 50
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "9",
@@ -141,7 +157,9 @@
       "startTime": "19:30",
       "endTime": "22:00",
       "progressPercentage": 75
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "10",
@@ -157,7 +175,9 @@
       "startTime": "20:50",
       "endTime": "23:10",
       "progressPercentage": 30
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "11",
@@ -173,11 +193,13 @@
       "startTime": "21:00",
       "endTime": "23:30",
       "progressPercentage": 25
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   },
   {
     "id": "12",
-    "channelNumber": "5001",
+    "channelNumber": "5000",
     "name": "FR - GULLI FHD",
     "category": "ENFANTS",
     "logo": "https://images-na.ssl-images-amazon.com/images/I/61NkSKOKp3L.png",
@@ -189,6 +211,1592 @@
       "startTime": "20:15",
       "endTime": "21:15",
       "progressPercentage": 80
-    }
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "13",
+    "channelNumber": "1013",
+    "name": "FR - TOUTE L'HISTOIRE HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=TOUTE%20L%27HISTOIRE&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/13/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "La Seconde Guerre mondiale",
+      "startTime": "20:40",
+      "endTime": "22:10",
+      "progressPercentage": 45
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "14",
+    "channelNumber": "1014",
+    "name": "FR - CHASSE ET PECHE HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=CHASSE%20ET%20PECHE&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/14/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Pêche en eau vive",
+      "startTime": "20:20",
+      "endTime": "21:00",
+      "progressPercentage": 75
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "15",
+    "channelNumber": "1015",
+    "name": "FR - SEASONS HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=SEASONS&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/15/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Mémoires de chasseurs",
+      "startTime": "21:15",
+      "endTime": "22:00",
+      "progressPercentage": 10
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "16",
+    "channelNumber": "1016",
+    "name": "FR - ESCALES HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=ESCALES&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/16/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Croisière en Méditerranée",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 80
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "17",
+    "channelNumber": "1017",
+    "name": "FR - MUSEUM TV HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=MUSEUM%20TV&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/17/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Dinosaures, la vérité",
+      "startTime": "20:50",
+      "endTime": "21:50",
+      "progressPercentage": 42
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "18",
+    "channelNumber": "1018",
+    "name": "FR - TREK HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=TREK&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/18/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Himalaya, l'ultime défi",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "progressPercentage": 22
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "19",
+    "channelNumber": "1019",
+    "name": "FR - VOYAGE HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=VOYAGE&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/19/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Escapade à Lisbonne",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "progressPercentage": 60
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "20",
+    "channelNumber": "1020",
+    "name": "FR - NATURE HD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://ui-avatars.com/api/?name=NATURE&size=128&length=3&bold=true&rounded=true&background=0f766e&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/20/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Forêts du monde",
+      "startTime": "20:10",
+      "endTime": "21:10",
+      "progressPercentage": 68
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "21",
+    "channelNumber": "2001",
+    "name": "FR - TF1 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TF1&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/21/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le journal de 20h",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 90
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "22",
+    "channelNumber": "2002",
+    "name": "FR - FRANCE 2 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=FRANCE%202&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/22/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Envoyé spécial",
+      "startTime": "21:00",
+      "endTime": "22:30",
+      "progressPercentage": 15
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "23",
+    "channelNumber": "2003",
+    "name": "FR - FRANCE 3 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=FRANCE%203&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/23/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Des racines et des ailes",
+      "startTime": "21:05",
+      "endTime": "23:00",
+      "progressPercentage": 12
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "24",
+    "channelNumber": "2004",
+    "name": "FR - FRANCE 5 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=FRANCE%205&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/24/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "C dans l'air",
+      "startTime": "17:55",
+      "endTime": "19:00",
+      "progressPercentage": 95
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "25",
+    "channelNumber": "2005",
+    "name": "FR - M6 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=M6&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/25/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Capital",
+      "startTime": "21:10",
+      "endTime": "23:00",
+      "progressPercentage": 10
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "26",
+    "channelNumber": "2006",
+    "name": "FR - ARTE HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=ARTE&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/26/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le dessous des cartes",
+      "startTime": "20:50",
+      "endTime": "21:00",
+      "progressPercentage": 50
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "27",
+    "channelNumber": "2007",
+    "name": "FR - C8 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=C8&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/27/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Touche pas à mon poste",
+      "startTime": "21:00",
+      "endTime": "23:15",
+      "progressPercentage": 18
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "28",
+    "channelNumber": "2008",
+    "name": "FR - W9 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=W9&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/28/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les Marseillais",
+      "startTime": "20:55",
+      "endTime": "22:30",
+      "progressPercentage": 24
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "29",
+    "channelNumber": "2009",
+    "name": "FR - TMC HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TMC&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/29/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Quotidien",
+      "startTime": "19:15",
+      "endTime": "20:30",
+      "progressPercentage": 88
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "30",
+    "channelNumber": "2010",
+    "name": "FR - TFX HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TFX&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/30/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Familles nombreuses",
+      "startTime": "21:00",
+      "endTime": "22:30",
+      "progressPercentage": 33
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "31",
+    "channelNumber": "2011",
+    "name": "FR - NRJ12 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=NRJ12&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/31/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les Anges",
+      "startTime": "20:50",
+      "endTime": "22:40",
+      "progressPercentage": 27
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "32",
+    "channelNumber": "2012",
+    "name": "FR - LCP HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=LCP&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/32/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Débat parlementaire",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 55
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "33",
+    "channelNumber": "2013",
+    "name": "FR - FRANCE 4 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=FRANCE%204&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/33/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Spectacle : Festival d'humour",
+      "startTime": "21:05",
+      "endTime": "22:45",
+      "progressPercentage": 20
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "34",
+    "channelNumber": "2014",
+    "name": "FR - 6TER HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=6TER&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/34/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Cauchemar en cuisine",
+      "startTime": "20:50",
+      "endTime": "22:30",
+      "progressPercentage": 38
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "35",
+    "channelNumber": "2015",
+    "name": "FR - RMC STORY HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=RMC%20STORY&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/35/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Enquêtes criminelles",
+      "startTime": "21:00",
+      "endTime": "22:45",
+      "progressPercentage": 29
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "36",
+    "channelNumber": "2016",
+    "name": "FR - CHERIE 25 HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=CHERIE%2025&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/36/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Mariés au premier regard",
+      "startTime": "21:05",
+      "endTime": "23:00",
+      "progressPercentage": 14
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "37",
+    "channelNumber": "2017",
+    "name": "FR - TF1 SERIES FILMS HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TF1%20SERIES%20FILMS&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/37/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les experts",
+      "startTime": "20:55",
+      "endTime": "21:50",
+      "progressPercentage": 46
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "38",
+    "channelNumber": "2018",
+    "name": "FR - PARIS PREMIERE HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=PARIS%20PREMIERE&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/38/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Zone interdite",
+      "startTime": "21:00",
+      "endTime": "22:50",
+      "progressPercentage": 31
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "39",
+    "channelNumber": "2019",
+    "name": "FR - TEVA HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TEVA&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/39/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Grey's Anatomy",
+      "startTime": "20:45",
+      "endTime": "21:40",
+      "progressPercentage": 52
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "40",
+    "channelNumber": "2020",
+    "name": "FR - TV5 MONDE HD",
+    "category": "GENERALISTE",
+    "logo": "https://ui-avatars.com/api/?name=TV5%20MONDE&size=128&length=3&bold=true&rounded=true&background=1d4ed8&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/40/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le journal Afrique",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "progressPercentage": 66
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "41",
+    "channelNumber": "3001",
+    "name": "FR - BEIN SPORTS 1 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=BEIN%20SPORTS%201&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/41/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Ligue 1 : Match en direct",
+      "startTime": "20:45",
+      "endTime": "22:45",
+      "progressPercentage": 50
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "42",
+    "channelNumber": "3002",
+    "name": "FR - BEIN SPORTS 2 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=BEIN%20SPORTS%202&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/42/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Liga : FC Barcelone - Valence",
+      "startTime": "21:00",
+      "endTime": "23:00",
+      "progressPercentage": 28
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "43",
+    "channelNumber": "3003",
+    "name": "FR - BEIN SPORTS 3 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=BEIN%20SPORTS%203&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/43/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Serie A : Juventus - Naples",
+      "startTime": "20:45",
+      "endTime": "22:45",
+      "progressPercentage": 44
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "44",
+    "channelNumber": "3004",
+    "name": "FR - EUROSPORT 1 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=EUROSPORT%201&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/44/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Tennis : Masters en direct",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "progressPercentage": 75
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "45",
+    "channelNumber": "3005",
+    "name": "FR - EUROSPORT 2 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=EUROSPORT%202&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/45/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Cyclisme : Critérium",
+      "startTime": "19:00",
+      "endTime": "21:30",
+      "progressPercentage": 82
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "46",
+    "channelNumber": "3006",
+    "name": "FR - CANAL+ SPORT FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=CANAL%2B%20SPORT&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/46/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top 14 : Toulouse - Racing",
+      "startTime": "20:45",
+      "endTime": "22:30",
+      "progressPercentage": 40
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "47",
+    "channelNumber": "3007",
+    "name": "FR - RMC SPORT 1 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=RMC%20SPORT%201&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/47/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Ligue des champions : Résumé",
+      "startTime": "21:00",
+      "endTime": "22:30",
+      "progressPercentage": 35
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "48",
+    "channelNumber": "3008",
+    "name": "FR - RMC SPORT 2 FHD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=RMC%20SPORT%202&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/48/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Premier League : Arsenal - Chelsea",
+      "startTime": "20:30",
+      "endTime": "22:30",
+      "progressPercentage": 47
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "49",
+    "channelNumber": "3009",
+    "name": "FR - L'EQUIPE HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=L%27EQUIPE&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/49/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "L'Équipe du soir",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 60
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "50",
+    "channelNumber": "3010",
+    "name": "FR - SPORT EN FRANCE HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=SPORT%20EN%20FRANCE&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/50/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Handball : Championnat de France",
+      "startTime": "20:30",
+      "endTime": "22:15",
+      "progressPercentage": 58
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "51",
+    "channelNumber": "3011",
+    "name": "FR - AUTOMOTO HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=AUTOMOTO&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/51/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Formule 1 : Grand Prix",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 72
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "52",
+    "channelNumber": "3012",
+    "name": "FR - GOLF+ HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=GOLF%2B&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/52/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Tournoi PGA : Dernier tour",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "progressPercentage": 67
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "53",
+    "channelNumber": "3013",
+    "name": "FR - INFOSPORT+ HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=INFOSPORT%2B&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/53/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Infosport : Édition spéciale",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "progressPercentage": 23
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "54",
+    "channelNumber": "3014",
+    "name": "FR - OM TV HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=OM%20TV&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/54/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Avant-match OM",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 90
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "55",
+    "channelNumber": "3015",
+    "name": "FR - OL TV HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=OL%20TV&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/55/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le Mag OL",
+      "startTime": "20:30",
+      "endTime": "21:15",
+      "progressPercentage": 62
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "56",
+    "channelNumber": "3016",
+    "name": "FR - EQUIDIA HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=EQUIDIA&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/56/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Courses du soir à Vincennes",
+      "startTime": "19:45",
+      "endTime": "22:15",
+      "progressPercentage": 70
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "57",
+    "channelNumber": "3017",
+    "name": "FR - MOTORSPORT TV HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=MOTORSPORT%20TV&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/57/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Rallye : Étape finale",
+      "startTime": "20:15",
+      "endTime": "21:45",
+      "progressPercentage": 53
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "58",
+    "channelNumber": "3018",
+    "name": "FR - EXTREME SPORTS HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=EXTREME%20SPORTS&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/58/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Snowboard : Big Air",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "progressPercentage": 19
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "59",
+    "channelNumber": "3019",
+    "name": "FR - FOOT+ HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=FOOT%2B&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/59/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Multiplex Ligue 2",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 64
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "60",
+    "channelNumber": "3020",
+    "name": "FR - RUGBY+ HD",
+    "category": "SPORT",
+    "logo": "https://ui-avatars.com/api/?name=RUGBY%2B&size=128&length=3&bold=true&rounded=true&background=b91c1c&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/60/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Pro D2 : Résumé de la journée",
+      "startTime": "21:10",
+      "endTime": "22:30",
+      "progressPercentage": 26
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "61",
+    "channelNumber": "4001",
+    "name": "FR - CANAL+ CINEMA FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CANAL%2B%20CINEMA&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/61/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Les évadés",
+      "startTime": "20:50",
+      "endTime": "23:10",
+      "progressPercentage": 30
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "62",
+    "channelNumber": "4002",
+    "name": "FR - CANAL+ FAMILY FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CANAL%2B%20FAMILY&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/62/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Le Roi Lion",
+      "startTime": "20:30",
+      "endTime": "22:10",
+      "progressPercentage": 48
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "63",
+    "channelNumber": "4003",
+    "name": "FR - OCS MAX FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=OCS%20MAX&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/63/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Inception",
+      "startTime": "21:00",
+      "endTime": "23:30",
+      "progressPercentage": 25
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "64",
+    "channelNumber": "4004",
+    "name": "FR - OCS CHOC FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=OCS%20CHOC&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/64/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Heat",
+      "startTime": "20:45",
+      "endTime": "23:30",
+      "progressPercentage": 34
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "65",
+    "channelNumber": "4005",
+    "name": "FR - OCS GEANTS FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=OCS%20GEANTS&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/65/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Gladiator",
+      "startTime": "21:00",
+      "endTime": "23:30",
+      "progressPercentage": 21
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "66",
+    "channelNumber": "4006",
+    "name": "FR - OCS CITY FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=OCS%20CITY&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/66/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Le Fabuleux Destin d'Amélie Poulain",
+      "startTime": "20:40",
+      "endTime": "22:35",
+      "progressPercentage": 43
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "67",
+    "channelNumber": "4007",
+    "name": "FR - CINE+ PREMIER FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20PREMIER&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/67/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Intouchables",
+      "startTime": "20:50",
+      "endTime": "22:50",
+      "progressPercentage": 38
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "68",
+    "channelNumber": "4008",
+    "name": "FR - CINE+ FRISSON FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20FRISSON&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/68/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Shining",
+      "startTime": "21:05",
+      "endTime": "23:30",
+      "progressPercentage": 17
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "69",
+    "channelNumber": "4009",
+    "name": "FR - CINE+ EMOTION FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20EMOTION&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/69/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Titanic",
+      "startTime": "20:30",
+      "endTime": "23:45",
+      "progressPercentage": 32
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "70",
+    "channelNumber": "4010",
+    "name": "FR - CINE+ FAMIZ FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20FAMIZ&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/70/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Astérix et Obélix",
+      "startTime": "20:45",
+      "endTime": "22:20",
+      "progressPercentage": 55
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "71",
+    "channelNumber": "4011",
+    "name": "FR - CINE+ CLUB FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20CLUB&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/71/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Pulp Fiction",
+      "startTime": "21:00",
+      "endTime": "23:35",
+      "progressPercentage": 22
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "72",
+    "channelNumber": "4012",
+    "name": "FR - CINE+ CLASSIC FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=CINE%2B%20CLASSIC&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/72/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Casablanca",
+      "startTime": "20:50",
+      "endTime": "22:25",
+      "progressPercentage": 41
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "73",
+    "channelNumber": "4013",
+    "name": "FR - TCM CINEMA FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=TCM%20CINEMA&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/73/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Certains l'aiment chaud",
+      "startTime": "21:00",
+      "endTime": "22:55",
+      "progressPercentage": 29
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "74",
+    "channelNumber": "4014",
+    "name": "FR - PARAMOUNT CHANNEL FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=PARAMOUNT%20CHANNEL&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/74/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Top Gun",
+      "startTime": "20:55",
+      "endTime": "22:50",
+      "progressPercentage": 36
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "75",
+    "channelNumber": "4015",
+    "name": "FR - ACTION FHD",
+    "category": "CINEMA",
+    "logo": "https://ui-avatars.com/api/?name=ACTION&size=128&length=3&bold=true&rounded=true&background=7c3aed&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/75/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Film : Die Hard",
+      "startTime": "21:00",
+      "endTime": "23:10",
+      "progressPercentage": 24
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "76",
+    "channelNumber": "5001",
+    "name": "FR - GULLI FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=GULLI&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/76/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Dessins animés du soir",
+      "startTime": "20:15",
+      "endTime": "21:15",
+      "progressPercentage": 80
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "77",
+    "channelNumber": "5002",
+    "name": "FR - DISNEY CHANNEL FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=DISNEY%20CHANNEL&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/77/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "La Garde du Roi Lion",
+      "startTime": "19:30",
+      "endTime": "20:30",
+      "progressPercentage": 92
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "78",
+    "channelNumber": "5003",
+    "name": "FR - CARTOON NETWORK FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=CARTOON%20NETWORK&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/78/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les Looney Tunes Show",
+      "startTime": "20:00",
+      "endTime": "20:45",
+      "progressPercentage": 70
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "79",
+    "channelNumber": "5004",
+    "name": "FR - BOOMERANG FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=BOOMERANG&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/79/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Tom et Jerry",
+      "startTime": "20:10",
+      "endTime": "20:40",
+      "progressPercentage": 85
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "80",
+    "channelNumber": "5005",
+    "name": "FR - NICKELODEON FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=NICKELODEON&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/80/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Bob l'éponge",
+      "startTime": "20:00",
+      "endTime": "20:30",
+      "progressPercentage": 77
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "81",
+    "channelNumber": "5006",
+    "name": "FR - NICK JR FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=NICK%20JR&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/81/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "La Pat' Patrouille",
+      "startTime": "19:45",
+      "endTime": "20:30",
+      "progressPercentage": 88
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "82",
+    "channelNumber": "5007",
+    "name": "FR - CANAL J FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=CANAL%20J&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/82/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les Tuniques Bleues",
+      "startTime": "20:20",
+      "endTime": "21:00",
+      "progressPercentage": 60
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "83",
+    "channelNumber": "5008",
+    "name": "FR - TIJI FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=TIJI&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/83/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Pimprenelle et ses amis",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "progressPercentage": 95
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "84",
+    "channelNumber": "5009",
+    "name": "FR - PIWI+ FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=PIWI%2B&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/84/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Trotro",
+      "startTime": "19:30",
+      "endTime": "20:15",
+      "progressPercentage": 90
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "85",
+    "channelNumber": "5010",
+    "name": "FR - BOING FHD",
+    "category": "ENFANTS",
+    "logo": "https://ui-avatars.com/api/?name=BOING&size=128&length=3&bold=true&rounded=true&background=f59e0b&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/85/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Scooby-Doo",
+      "startTime": "20:25",
+      "endTime": "21:10",
+      "progressPercentage": 50
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "86",
+    "channelNumber": "6001",
+    "name": "FR - MTV FHD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=MTV&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/86/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "MTV Hits",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 50
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "87",
+    "channelNumber": "6002",
+    "name": "FR - MCM HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=MCM&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/87/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Top 20 MCM",
+      "startTime": "20:30",
+      "endTime": "21:30",
+      "progressPercentage": 45
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "88",
+    "channelNumber": "6003",
+    "name": "FR - M6 MUSIC HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=M6%20MUSIC&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/88/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le Hit du soir",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 78
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "89",
+    "channelNumber": "6004",
+    "name": "FR - NRJ HITS HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=NRJ%20HITS&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/89/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "NRJ Hits Non Stop",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "progressPercentage": 55
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "90",
+    "channelNumber": "6005",
+    "name": "FR - TRACE URBAN HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=TRACE%20URBAN&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/90/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Urban Vibes",
+      "startTime": "20:30",
+      "endTime": "22:00",
+      "progressPercentage": 40
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "91",
+    "channelNumber": "6006",
+    "name": "FR - MEZZO HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=MEZZO&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/91/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Concert : Orchestre de Paris",
+      "startTime": "20:45",
+      "endTime": "22:30",
+      "progressPercentage": 33
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "92",
+    "channelNumber": "6007",
+    "name": "FR - CLUBBING TV HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=CLUBBING%20TV&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/92/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Electro Night",
+      "startTime": "21:00",
+      "endTime": "23:00",
+      "progressPercentage": 25
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "93",
+    "channelNumber": "6008",
+    "name": "FR - RIRE ET CHANSONS HD",
+    "category": "MUSIQUE",
+    "logo": "https://ui-avatars.com/api/?name=RIRE%20ET%20CHANSONS&size=128&length=3&bold=true&rounded=true&background=db2777&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/93/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les tubes d'hier et d'aujourd'hui",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "progressPercentage": 62
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "94",
+    "channelNumber": "7001",
+    "name": "FR - BFM TV HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=BFM%20TV&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/94/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "BFM Story",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 57
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "95",
+    "channelNumber": "7002",
+    "name": "FR - CNEWS HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=CNEWS&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/95/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Face à l'info",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 49
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "96",
+    "channelNumber": "7003",
+    "name": "FR - FRANCE 24 HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=FRANCE%2024&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/96/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le journal de l'Afrique",
+      "startTime": "20:30",
+      "endTime": "21:00",
+      "progressPercentage": 73
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "97",
+    "channelNumber": "7004",
+    "name": "FR - LCI HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=LCI&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/97/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le grand débat",
+      "startTime": "20:00",
+      "endTime": "21:30",
+      "progressPercentage": 61
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "98",
+    "channelNumber": "7005",
+    "name": "FR - FRANCEINFO HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=FRANCEINFO&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/98/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le 20h Franceinfo",
+      "startTime": "20:00",
+      "endTime": "20:45",
+      "progressPercentage": 83
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "99",
+    "channelNumber": "7006",
+    "name": "FR - I24 NEWS HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=I24%20NEWS&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/99/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le monde en direct",
+      "startTime": "20:15",
+      "endTime": "21:15",
+      "progressPercentage": 66
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
+  },
+  {
+    "id": "100",
+    "channelNumber": "7007",
+    "name": "FR - EURONEWS HD",
+    "category": "INFO",
+    "logo": "https://ui-avatars.com/api/?name=EURONEWS&size=128&length=3&bold=true&rounded=true&background=0369a1&color=ffffff",
+    "previewImage": "https://picsum.photos/seed/100/800/450",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Euronews Tonight",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "progressPercentage": 71
+    },
+    "isFavorite": false,
+    "isBlacklisted": false
   }
 ]
