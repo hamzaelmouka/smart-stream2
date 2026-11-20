@@ -8,34 +8,41 @@ export function affichage(channels){
     list.innerHTML="";
     channels.forEach(element => {
         list.innerHTML+=`
-        <div  data-id="${element.id}" class="flex items-center m-2 bg-amber-50 rounded-md p-2 hover:bg-red-400">
-            <p class="font-bold text-zinc-800 flex items-center m-3">${element.channelNumber}</p>
-            <img src="${element.logo}" alt="" class="w-12 h-11 rounded-md object-cover" />
-            <p class="namee ml-5 flex items-center italic font-semibold text-xl text-amber-800">${element.name}</p>
+        <div  data-id="${element.id}" class="flex items-center gap-3 mx-2 my-1.5 p-2.5  bg-slate-800  rounded-xl  hover:brightness-125">
+            <span class="w-12 text-center text-sm font-bold text-slate-300">${element.channelNumber}</span>
+            <img src="${element.logo}" alt="" class="w-12 h-11 shrink-0 rounded-lg object-cover bg-slate-700" />
+            <div class="min-w-0 flex-1">
+                <p class="namee truncate font-semibold text-white">${element.name}</p>
+                <p class="truncate text-xs text-slate-400">${element.category}</p>
+            </div>
+            <div class="ml-auto flex gap-2">
+                <button data-action="favorite" class="text-amber-400 p-2 rounded-full   hover:bg-slate-600 ">
+                    ${element.isFavorite ? "★" : "☆"}
+                </button>
+                <button data-action="blacklisted" class=" ${element.isBlacklisted ? ' font-bold ' : ''} p-2 rounded-full text-red-500  hover:bg-slate-600 ">
+                    ${element.isBlacklisted ? "↻" : "🚫"}
+                </button>
+                <button  class="p-2 rounded-full text-red-500  hover:bg-slate-600 ">
+                    ${element.isBlacklisted ? "🗑️" : "📝"}
+                </button>
+            </div>
         </div>
         `
     });
-   
-}
-
-export function selection(){
-    const catt=document.querySelector('[data-id="1"]')
-    catt.classList.add("bg-red-400");
-    catt.classList.remove("bg-amber-50");
 }
 
 export function selectionn(cate){
-    cate.classList.add("bg-red-400");
-    cate.classList.remove("bg-amber-50");
+    cate.classList.add("bg-blue-600","border-blue-400");
+    cate.classList.remove("bg-slate-800");
 }
 
 export function selectio(cate){
-    cate.classList.remove("bg-red-400");
-    cate.classList.add("bg-amber-50");
+    cate.classList.remove("bg-blue-600","border-blue-400");
+    cate.classList.add("bg-slate-800");
 }
 export function affichagePrevi(channel){
     img.innerHTML=`
-    <img class="w-full h-130 object-cover rounded-2xl " src=${channel.previewImage}>
+    <img class="w-full h-130 object-cover rounded-2xl " src="${channel.previewImage}">
     <h1 class="mt-4 text-3xl font-bold text-amber-50">${channel.channelNumber}-${channel.name}</h1>
     `;
 }
@@ -43,7 +50,7 @@ export function affichagePrevi(channel){
 export function selecte(data){
     if(!select)return;
     select.innerHTML="";
-    select.innerHTML=`<option id="" class="w-10" value="">Tout les catalouge </option>`
+    select.innerHTML=`<option id="" class="w-10" value="" >les category </option>`
     data.forEach(function(element){
         let valid=true;
         Array.from(select.options).forEach(function(e){
